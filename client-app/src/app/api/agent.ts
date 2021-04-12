@@ -36,8 +36,8 @@ const Activities = {
     delete: (id: string) => axios.delete<void>(`/activities/${id}`)
 };
 
-const Agent = {
+const agent = {
     Activities
 }
 
-export default Agent;
+export default agent;
